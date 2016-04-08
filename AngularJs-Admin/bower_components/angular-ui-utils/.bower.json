@@ -1,0 +1,17 @@
+{
+  "name": "angular-ui-mask",
+  "main": "./mask.js",
+  "dependencies": {
+    "angular": ">= 1.0.2"
+  },
+  "homepage": "https://github.com/angular-ui/ui-utils",
+  "_release": "mask-0.2.2",
+  "_resolution": {
+    "type": "tag",
+    "tag": "mask-0.2.2",
+    "commit": "6637ec85fc915ba675356f10c54c2ca3a8e2dff8"
+  },
+  "_source": "git://github.com/angular-ui/ui-utils.git",
+  "_target": "mask-0.2.2",
+  "_originalSource": "angular-ui-utils"
+}

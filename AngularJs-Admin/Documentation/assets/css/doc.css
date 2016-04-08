@@ -1,0 +1,32 @@
+.doc-navigation {
+    border-right: 1px solid #eee;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: 300px !important;
+}
+.doc-content {
+    margin-left: 300px;
+    min-height: 1000px;
+    overflow: hidden;
+    padding: 60px 0;
+    position: relative;
+}
+#sidebar {
+	margin: 0 !important;
+	border: none !important;
+}
+#sidebar > div nav > ul > li.active {
+    background: #007AFF;
+}
+@media (max-width: 991px) {
+	.doc-navigation {
+    	display: none;
+   	}
+   	.doc-content {
+   		margin-left: 0;	
+   	}
+}
